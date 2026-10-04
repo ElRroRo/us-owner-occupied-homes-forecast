@@ -1,0 +1,309 @@
+year,group,households_k,owners_k,rate_pct,table,vintage,flag,source
+1982,25-34,18955.0,9099.17420428892,48.00408443307265,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1983,25-34,19057.0,8966.0,47.04832869811618,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1984,25-34,19519.0,9157.03066543402,46.91342110473908,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1985,25-34,19831.0,9147.71556280657,46.12836247696319,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1986,25-34,20147.0,9167.99601870804,45.50551456151308,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1987,25-34,20284.0,9226.87303488388,45.488429475862155,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1988,25-34,20432.0,9225.588031294159,45.15264306624001,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1989,25-34,21055.0,9456.0,44.91094751840418,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1990,25-34,20721.0,9149.0,44.15327445586603,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1991,25-34,20470.0,8889.0,43.42452369320957,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1992,25-34,20304.0,8748.0,43.08510638297872,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1993,25-34,20254.0,8767.0,43.285276982324476,T12,rev,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1994,25-34,19912.0,8646.0,43.421052631578945,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1995,25-34,19868.0,8928.0,44.93658143748742,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1996,25-34,19605.0,8808.0,44.92731446059679,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1997,25-34,19377.0,8651.0,44.64571399081385,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1998,25-34,19160.0,8757.0,45.70459290187891,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1999,25-34,19061.0,8754.0,45.92623681863491,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+2000,25-34,18140.0,8516.0,46.94597574421169,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2001,25-34,18116.0,8649.0,47.74232722455288,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2002,25-34,18469.0,8807.0,47.68531052033136,T12a,rev,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2003,25-34,18395.0,9017.0,49.018755096493614,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2004,25-34,18534.0,9166.0,49.45505557354052,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2005,25-34,18589.0,9145.0,49.19576093388563,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2006,25-34,18586.0,9107.0,48.99924674486172,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2007,25-34,18680.0,8881.0,47.54282655246253,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2008,25-34,18481.0,8654.0,46.82647042908933,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2009,25-34,18565.0,8385.0,45.16563425801239,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2010,25-34,18694.0,8289.0,44.3404300845191,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2011,25-34,19020.0,8092.0,42.54468980021031,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2012,25-34,18753.0,7781.0,41.49202794219592,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2013,25-34,18792.0,7809.0,41.55491698595147,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2014,25-34,19004.0,7674.0,40.380972426857504,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2015,25-34,19168.0,7517.0,39.216402337228715,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2016,25-34,19295.0,7440.0,38.55921223114797,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2017,25-34,19490.0,7640.0,39.19958953309389,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2018,25-34,19763.0,7979.0,40.37342508728432,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2019,25-34,20046.0,8169.0,40.75127207422927,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2020,25-34,20215.0,8620.0,42.64160277022013,T12a,orig,2020: pandemic collection problems (JCHS also drops it),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2021,25-34,20343.0,8558.0,42.0685247996854,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2022,25-34,20523.0,8799.0,42.873848852506946,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2023,25-34,20649.0,8881.0,43.00934669959804,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2024,25-34,20720.0,8529.0,41.16312741312741,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2025,25-34,20782.0,8444.0,40.631315561543644,T12a,orig,2025: October not collected (federal funding lapse),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+1982,35-44,15298.0,10710.85238479334,70.01472339386416,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1983,35-44,15880.0,11008.0,69.31989924433249,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1984,35-44,16709.0,11516.08313250987,68.92143834167136,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1985,35-44,17534.0,11943.06234004632,68.11373525747872,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1986,35-44,18090.0,12178.039552238799,67.3191793932493,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1987,35-44,18802.0,12631.03354856326,67.17920193896,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1988,35-44,19281.0,12904.716263732738,66.92970418408142,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1989,35-44,20157.0,13429.0,66.62201716525277,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1990,35-44,20807.0,13789.0,66.2709665016581,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1991,35-44,21490.0,14137.0,65.78408562121918,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1992,35-44,21835.0,14223.0,65.13853904282117,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1993,35-44,22457.0,14611.0,65.06211871576791,T12,rev,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1994,35-44,22837.0,14733.0,64.5137277225555,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1995,35-44,23144.0,15093.0,65.21344624956792,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1996,35-44,23727.0,15534.0,65.46971804273612,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1997,35-44,24035.0,15880.0,66.07031412523403,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1998,35-44,24167.0,16159.0,66.86390532544378,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1999,35-44,24156.0,16228.0,67.17999668819341,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+2000,35-44,23592.0,16032.0,67.95523906408953,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2001,35-44,23402.0,15976.0,68.26766942996325,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2002,35-44,22840.0,15664.0,68.58143607705779,T12a,rev,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2003,35-44,22644.0,15475.0,68.34039922275217,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2004,35-44,22418.0,15516.0,69.21224016415381,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2005,35-44,22506.0,15588.0,69.2615302585977,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2006,35-44,22233.0,15313.0,68.87509557864436,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2007,35-44,21813.0,14787.0,67.78985008939623,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2008,35-44,21576.0,14455.0,66.99573600296625,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2009,35-44,21070.0,13935.0,66.13668723303275,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2010,35-44,20512.0,13327.0,64.97172386895475,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2011,35-44,20184.0,12808.0,63.45620293301625,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2012,35-44,20242.0,12436.0,61.43661693508547,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2013,35-44,19959.0,12095.0,60.599228418257425,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2014,35-44,19936.0,11901.0,59.696027287319424,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2015,35-44,19981.0,11682.0,58.465542265151896,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2016,35-44,20028.0,11732.0,58.57799081286199,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2017,35-44,20146.0,11890.0,59.019160131043385,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2018,35-44,20240.0,12165.0,60.10375494071146,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2019,35-44,20568.0,12369.0,60.13710618436406,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2020,35-44,21514.0,13490.0,62.70335595426234,T12a,orig,2020: pandemic collection problems (JCHS also drops it),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2021,35-44,21696.0,13344.0,61.50442477876106,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2022,35-44,22303.0,13875.0,62.211361700219705,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2023,35-44,22547.0,14126.0,62.65135051226327,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2024,35-44,23148.0,14308.0,61.810955590115775,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2025,35-44,23408.0,14236.0,60.816814764183185,T12a,orig,2025: October not collected (federal funding lapse),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+1982,45-54,12540.0,9708.69728357903,77.42182841769561,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1983,45-54,12476.0,9610.0,77.0278935556268,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1984,45-54,12529.0,9580.11429474788,76.46351899391715,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1985,45-54,12674.0,9615.158216529879,75.8652218441682,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1986,45-54,12930.0,9826.55754169649,75.99812483910665,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1987,45-54,13237.0,10075.216507802921,76.11404780390512,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1988,45-54,13809.0,10440.35245775366,75.60542007208096,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1989,45-54,14273.0,10774.0,75.48518181181251,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1990,45-54,14570.0,10957.0,75.20247083047357,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1991,45-54,15038.0,11249.0,74.80383029658199,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1992,45-54,15945.0,11977.0,75.11445594230166,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1993,45-54,16629.0,12516.0,75.26610138913945,T12,rev,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1994,45-54,17248.0,12962.0,75.15074211502782,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1995,45-54,17962.0,13501.0,75.16423560850684,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1996,45-54,18504.0,13996.0,75.6376999567661,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1997,45-54,19182.0,14536.0,75.77937649880096,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1998,45-54,19784.0,14969.0,75.66215123331986,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1999,45-54,20385.0,15499.0,76.03139563404464,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+2000,45-54,20253.0,15545.0,76.75406112674665,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2001,45-54,21195.0,16267.0,76.74923330974286,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2002,45-54,21399.0,16321.0,76.26991915510071,T12a,rev,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2003,45-54,21649.0,16586.0,76.61323848676614,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2004,45-54,22108.0,17066.0,77.19377600868464,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2005,45-54,22632.0,17325.0,76.550901378579,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2006,45-54,23117.0,17618.0,76.21231128606654,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2007,45-54,23287.0,17556.0,75.38970240906944,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2008,45-54,23438.0,17575.0,74.98506698523765,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2009,45-54,23666.0,17596.0,74.35139018000507,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2010,45-54,23627.0,17365.0,73.49642358318873,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2011,45-54,23237.0,16887.0,72.67289236992727,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2012,45-54,22822.0,16363.0,71.69836123039173,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2013,45-54,22663.0,16137.0,71.20416537969378,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2014,45-54,22358.0,15807.0,70.69952589677074,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2015,45-54,22093.0,15463.0,69.99049472683656,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2016,45-54,21816.0,15113.0,69.27484415108178,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2017,45-54,21490.0,14897.0,69.32061423918101,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2018,45-54,21331.0,14956.0,70.1139187098589,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2019,45-54,20936.0,14675.0,70.09457393962552,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2020,45-54,21209.0,15075.0,71.07831580932623,T12a,orig,2020: pandemic collection problems (JCHS also drops it),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2021,45-54,21076.0,14693.0,69.71436705257165,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2022,45-54,21370.0,15063.0,70.48666354702854,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2023,45-54,21304.0,15029.0,70.54543747653022,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2024,45-54,21410.0,15126.0,70.64922933208781,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2025,45-54,21522.0,15033.0,69.84945637022581,T12a,orig,2025: October not collected (federal funding lapse),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+1982,55-64,12957.0,10369.57700746619,80.03069389107193,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1983,55-64,13062.0,10442.0,79.9418159546777,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1984,55-64,13105.0,10486.77649145838,80.02118650483312,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1985,55-64,13125.0,10437.09060899608,79.52069035425585,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1986,55-64,13003.0,10389.57931504472,79.90140209985942,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1987,55-64,12897.0,10343.81641232637,80.20327527584996,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1988,55-64,12755.0,10145.50577459007,79.54140160399898,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1989,55-64,12686.0,10096.0,79.58379315781175,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1990,55-64,12628.0,10011.0,79.27621159328477,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1991,55-64,12495.0,9999.0,80.02400960384153,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1992,55-64,12502.0,10031.0,80.23516237402016,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1993,55-64,12198.0,9746.0,79.89834399081816,T12,rev,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1994,55-64,12256.0,9714.0,79.25913838120104,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1995,55-64,12215.0,9712.0,79.50880065493246,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1996,55-64,12310.0,9850.0,80.01624695369618,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1997,55-64,12678.0,10150.0,80.05994636377977,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1998,55-64,13106.0,10601.0,80.88661681672517,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1999,55-64,13572.0,10989.0,80.96816976127322,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+2000,55-64,13470.0,10801.0,80.18559762435041,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2001,55-64,13768.0,11196.0,81.31900058105752,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2002,55-64,14732.0,11954.0,81.14308987238664,T12a,rev,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2003,55-64,15406.0,12533.0,81.35142152408153,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2004,55-64,16192.0,13235.0,81.737895256917,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2005,55-64,17036.0,13827.0,81.1634186428739,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2006,55-64,17702.0,14316.0,80.87221782849396,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2007,55-64,18278.0,14735.0,80.61604114235693,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2008,55-64,18863.0,15103.0,80.06679743413031,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2009,55-64,19310.0,15351.0,79.49766960124288,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2010,55-64,19966.0,15767.0,78.96924772112591,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2011,55-64,20691.0,16241.0,78.49306461746653,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2012,55-64,21246.0,16433.0,77.34632401393203,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2013,55-64,21391.0,16384.0,76.59295965593006,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2014,55-64,21645.0,16511.0,76.28089628089629,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2015,55-64,22141.0,16699.0,75.42116435572015,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2016,55-64,22404.0,16808.0,75.0223174433137,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2017,55-64,22660.0,17068.0,75.32215357458075,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2018,55-64,22838.0,17217.0,75.38751204133462,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2019,55-64,23038.0,17331.0,75.22788436496224,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2020,55-64,23791.0,18211.0,76.54575259551932,T12a,orig,2020: pandemic collection problems (JCHS also drops it),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2021,55-64,23536.0,17663.0,75.04673691366418,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2022,55-64,23504.0,17658.0,75.12763784887679,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2023,55-64,23151.0,17535.0,75.74186860178825,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2024,55-64,23050.0,17536.0,76.07809110629067,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2025,55-64,22774.0,17276.0,75.85843505752173,T12a,orig,2025: October not collected (federal funding lapse),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+1982,65-74,10472.0,8031.53744209833,76.69535372515594,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1983,65-74,10626.0,8202.0,77.18802936194241,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1984,65-74,10804.0,8377.3150433103,77.53901372926971,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1985,65-74,10979.0,8594.04494502094,78.27711945551452,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1986,65-74,11217.0,8791.38376643621,78.3755350489098,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1987,65-74,11360.0,8938.664604699079,78.68542785826654,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1988,65-74,11521.0,9095.675338754409,78.94866191089669,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1989,65-74,11649.0,9201.0,78.98532062838012,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1990,65-74,11804.0,9358.0,79.27821077600814,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1991,65-74,11916.0,9558.0,80.21148036253777,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1992,65-74,11927.0,9539.0,79.97820072105307,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1993,65-74,11763.0,9446.0,80.30264388336309,T12,rev,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1994,65-74,11794.0,9480.0,80.3798541631338,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1995,65-74,11781.0,9536.0,80.9438927085986,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1996,65-74,11701.0,9585.0,81.91607554909837,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1997,65-74,11500.0,9429.0,81.99130434782609,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1998,65-74,11435.0,9383.0,82.0550940096196,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1999,65-74,11466.0,9500.0,82.8536542822257,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+2000,65-74,11101.0,9158.0,82.4970723358256,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2001,65-74,10926.0,9009.0,82.45469522240528,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2002,65-74,10818.0,8949.0,82.7232390460344,T12a,rev,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2003,65-74,10788.0,8879.0,82.30441230997404,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2004,65-74,10823.0,9018.0,83.32255382056731,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2005,65-74,11041.0,9148.0,82.85481387555475,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2006,65-74,11244.0,9295.0,82.66631092138029,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2007,65-74,11492.0,9423.0,81.99617124956491,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2008,65-74,11784.0,9618.0,81.61914460285132,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2009,65-74,12213.0,10006.0,81.92909195119954,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2010,65-74,12603.0,10328.0,81.94874236292947,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2011,65-74,12864.0,10600.0,82.40049751243781,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2012,65-74,13802.0,11338.0,82.14751485291987,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2013,65-74,14559.0,11863.0,81.4822446596607,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2014,65-74,15243.0,12326.0,80.86334711014892,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2015,65-74,16048.0,12860.0,80.1345962113659,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2016,65-74,16632.0,13327.0,80.12866762866763,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2017,65-74,17386.0,13927.0,80.10468192798804,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2018,65-74,18018.0,14390.0,79.86457986457987,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2019,65-74,18511.0,14739.0,79.62292690832479,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2020,65-74,19544.0,15783.0,80.75624232501023,T12a,orig,2020: pandemic collection problems (JCHS also drops it),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2021,65-74,19895.0,15924.0,80.04021110831867,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2022,65-74,20542.0,16317.0,79.4323824359848,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2023,65-74,20977.0,16654.0,79.39171473518616,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2024,65-74,21395.0,17063.0,79.75227856975928,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2025,65-74,21884.0,17399.0,79.5055748492049,T12a,orig,2025: October not collected (federal funding lapse),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+1982,75+,6968.0,4946.67278989667,70.99128573330468,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1983,75+,7152.0,5139.0,71.85402684563758,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1984,75+,7414.0,5298.40976530887,71.46492804570907,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1985,75+,7517.0,5247.36344286284,69.80661757167542,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1986,75+,7612.0,5326.98896479243,69.98146301619063,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1987,75+,7921.0,5610.07360181795,70.82532005830008,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1988,75+,8179.0,5791.9528059665,70.81492610302604,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1989,75+,8290.0,5905.0,71.23039806996381,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1990,75+,8546.0,6178.0,72.2911303533817,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1991,75+,8765.0,6404.0,73.06332002281803,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1992,75+,8964.0,6567.0,73.25970548862115,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1993,75+,9074.0,6657.0,73.36345602821247,T12,rev,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1994,75+,9236.0,6793.0,73.54915547856214,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1995,75+,9514.0,7093.0,74.55328988858524,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1996,75+,9669.0,7284.0,75.33354017995656,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1997,75+,9912.0,7517.0,75.83736884584343,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1998,75+,10131.0,7723.0,76.23136906524529,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1999,75+,10289.0,7933.0,77.10175916026824,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+2000,75+,10061.0,7872.0,78.2427194115893,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2001,75+,10272.0,8019.0,78.06658878504673,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2002,75+,10667.0,8359.0,78.36317615074529,T12a,rev,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2003,75+,10758.0,8463.0,78.6670384829894,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2004,75+,10928.0,8612.0,78.80673499267935,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2005,75+,11066.0,8677.0,78.4113500813302,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2006,75+,11167.0,8839.0,79.15286110862363,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2007,75+,11159.0,8787.0,78.74361501926695,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2008,75+,11246.0,8836.0,78.57015827849902,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2009,75+,11314.0,8925.0,78.88456779211596,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2010,75+,11388.0,8988.0,78.92518440463645,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2011,75+,11469.0,9095.0,79.3007236899468,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2012,75+,11618.0,9289.0,79.95352039938027,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2013,75+,11764.0,9405.0,79.94729683781027,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2014,75+,12028.0,9453.0,78.59161955437312,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2015,75+,12205.0,9421.0,77.18967636214666,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2016,75+,12433.0,9567.0,76.94844365800692,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2017,75+,12712.0,9768.0,76.84078036500944,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2018,75+,13154.0,10080.0,76.6306826820739,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2019,75+,13692.0,10583.0,77.29330996202162,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2020,75+,14330.0,11322.0,79.00907187718074,T12a,orig,2020: pandemic collection problems (JCHS also drops it),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2021,75+,14501.0,11413.0,78.7049169022826,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2022,75+,14497.0,11398.0,78.62316341311995,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2023,75+,15531.0,12186.0,78.46242997875217,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2024,75+,16017.0,12490.0,77.97964662546045,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2025,75+,16618.0,12862.0,77.39800216632567,T12a,orig,2025: October not collected (federal funding lapse),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+1982,<25,5905.0,1141.6616426757,19.33381274641321,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1983,<25,5487.0,1031.0,18.78986695826499,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1984,<25,5536.0,992.751625722543,17.93265219874536,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1985,<25,5483.0,941.740105781506,17.175635706392594,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1986,<25,5351.0,922.09138478789,17.23213202743207,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1987,<25,5201.0,829.70313401269,15.952761661462988,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1988,<25,5147.0,812.832718088207,15.792359006959531,T12,orig,1982-88: age 'not reported' not allocated to groups,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1989,<25,5381.0,892.0,16.57684445270396,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1990,<25,5143.0,806.0,15.671786894808477,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1991,<25,5075.0,775.0,15.270935960591133,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1992,<25,4913.0,732.0,14.89924689599023,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1993,<25,5342.0,792.0,14.825907899663047,T12,rev,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1994,<25,5408.0,807.0,14.92233727810651,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1995,<25,5502.0,875.0,15.903307888040713,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1996,<25,5467.0,985.0,18.017194073532103,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1997,<25,5517.0,979.0,17.74515135037158,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1998,<25,5750.0,1045.0,18.17391304347826,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+1999,<25,6000.0,1195.0,19.916666666666668,T12,orig,,https://www.census.gov/housing/hvs/data/histtab12.xlsx
+2000,<25,5966.0,1300.0,21.79014415018438,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2001,<25,6269.0,1414.0,22.55543148827564,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2002,<25,6394.0,1464.0,22.896465436346574,T12a,rev,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2003,<25,6475.0,1477.0,22.81081081081081,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2004,<25,6603.0,1662.0,25.170377101317584,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2005,<25,6614.0,1702.0,25.733293014817054,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2006,<25,6645.0,1645.0,24.755455229495862,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2007,<25,6549.0,1623.0,24.78240952817224,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2008,<25,6284.0,1484.0,23.615531508593254,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2009,<25,6157.0,1436.0,23.323046938444048,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2010,<25,6116.0,1397.0,22.841726618705035,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2011,<25,6079.0,1373.0,22.585951636782365,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2012,<25,6075.0,1319.0,21.7119341563786,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2013,<25,6158.0,1368.0,22.215004871711596,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2014,<25,6159.0,1339.0,21.740542295827243,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2015,<25,6144.0,1340.0,21.809895833333332,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2016,<25,6183.0,1354.0,21.898754649846353,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2017,<25,5959.0,1344.0,22.55411981876154,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2018,<25,6023.0,1369.0,22.729536775693177,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2019,<25,5970.0,1386.0,23.21608040201005,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2020,<25,5283.0,1359.0,25.724020442930154,T12a,orig,2020: pandemic collection problems (JCHS also drops it),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2021,<25,5741.0,1394.0,24.281484062010104,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2022,<25,5906.0,1502.0,25.431764307483913,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2023,<25,6145.0,1452.0,23.628966639544345,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2024,<25,5930.0,1362.0,22.967959527824622,T12a,orig,,https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx
+2025,<25,5830.0,1410.0,24.1852487135506,T12a,orig,2025: October not collected (federal funding lapse),https://www.census.gov/housing/hvs/data/hist_tab_12a_v2025.xlsx

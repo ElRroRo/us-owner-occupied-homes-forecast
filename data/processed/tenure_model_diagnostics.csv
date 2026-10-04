@@ -1,0 +1,72 @@
+section,test,statistic,p_value,reading
+fit,R2 (band effects + drivers),0.8033368224262141,,"n=352 band-years, 1992-2025"
+fit,adjusted R2,0.7933270199748537,,
+fit,"adjusted R2, band effects only",0.6399603166090697,,how much the normal ageing pattern alone explains
+fit,partial R2 of the drivers,0.44629398008064103,,share of what ageing leaves unexplained that the drivers explain
+fit,Wald: drivers add nothing (year-clustered),152.75901816553537,1.0688726147331641e-29,
+stationarity,"ADF, young-band flow (mean of 25-44 bands) (H0: unit root)",-2.1713222509338688,0.21681794333388688,
+stationarity,"KPSS, young-band flow (mean of 25-44 bands) (H0: stationary)",0.38623306812677166,0.08308919477294324,KPSS p is capped at 0.10 / floored at 0.01
+stationarity,"ADF, house price / income (log), last year (H0: unit root)",-1.8905369836517074,0.33652582365125006,
+stationarity,"KPSS, house price / income (log), last year (H0: stationary)",0.4958913711569276,0.04259203352321451,KPSS p is capped at 0.10 / floored at 0.01
+stationarity,"ADF, mortgage-rate payment factor (log), last year (H0: unit root)",-1.7079978904233817,0.4269965057788697,
+stationarity,"KPSS, mortgage-rate payment factor (log), last year (H0: stationary)",0.7718949639523535,0.01,KPSS p is capped at 0.10 / floored at 0.01
+stationarity,"ADF, mortgage delinquency rate (%), last year (H0: unit root)",-3.0168416465822756,0.03335125595851683,
+stationarity,"KPSS, mortgage delinquency rate (%), last year (H0: stationary)",0.1939539623047175,0.1,KPSS p is capped at 0.10 / floored at 0.01
+residuals,AR(1) of residuals within band,0.0564905448300784,0.3686661036870271,positive = some persistence the drivers miss; Driscoll-Kraay errors (2 lags) allow for it
+residuals,"Ljung-Box on year-mean residual, lag 1",0.31241020158301624,0.5762049416701076,
+residuals,"Ljung-Box on year-mean residual, lag 2",0.31554316163765483,0.8540448399131633,
+residuals,"Ljung-Box on year-mean residual, lag 3",1.092756972235193,0.7788228609330431,
+residuals,Breusch-Pagan heteroskedasticity (on drivers),19.093432113950435,0.007899638359345207,"errors are year-clustered, which is robust to this"
+residuals,Jarque-Bera normality,3.392695737844463,0.1833519280348675,"skew 0.17, kurtosis 3.34"
+residuals,"Pesaran CD, cross-band residual correlation",6.815227314601779,9.411582624352377e-12,"mean pairwise corr 0.16: bands share year shocks, hence year-clustered errors"
+collinearity,"corr(house price / income (log), last year, mortgage-rate payment factor (log), last year)",-0.2983140470946664,,
+collinearity,"corr(house price / income (log), last year, mortgage delinquency rate (%), last year)",-0.4554161363819256,,
+collinearity,"corr(mortgage-rate payment factor (log), last year, mortgage delinquency rate (%), last year)",-0.47871454299764815,,
+collinearity,"VIF among the three drivers only, house price / income (log), last year",2.2384246504030174,,below 5 is comfortable
+collinearity,"VIF among the three drivers only, mortgage-rate payment factor (log), last year",2.3016245492091003,,below 5 is comfortable
+collinearity,"VIF among the three drivers only, mortgage delinquency rate (%), last year",2.6454835481673364,,below 5 is comfortable
+collinearity,centred-driver refit: max change in any slope,3.197442310920451e-14,,0 = slopes do not depend on where the drivers are centred
+collinearity,centred-driver refit: max change in any slope's std error,1.199040866595169e-13,,
+collinearity,centred-driver refit: max change in fitted flow,1.249000902703301e-13,,
+collinearity,"design-matrix VIF, largest driver column: raw / centred",2244.7480518756647,3.371851251656307,second number in p_value column; centred is what matters
+form,"price and rate slopes for 55+ both zero (Wald, unrestricted model)",1.3723026950499446,0.50351018051974,"not rejected = 55+ restriction is fine; unrestricted 55+ rate slope -0.16, price -0.70"
+form,"lock-in term (rate gap x owners), full sample",0.0961364055465932,0.24381671032968155,"adj R2 0.795; on 1991-2019 alone -0.02 (p 0.93): before 2022 the gap never opened, so the effect cannot be learned from history"
+form,"rate part = price part (young), Wald",18.478862848646298,1.7179911957140008e-05,rejected = a single payment-to-income slope would mis-state the rate effect
+form,alternative: same-year drivers: adj R2,0.7627007662036989,,vs 0.793 chosen (last year's)
+form,"same-year log_price_income, young",-4.13585691104568,0.0015161622203036752,
+form,"same-year log_rate_factor, young",-1.7060126190879414,0.10820415750108986,
+form,"same-year delinquency, young",-0.34681768152150655,7.747240689386614e-08,
+form,"both years together: log_price_income, young",2.2880139104372232,0.1616182574027879,same-year terms turn positive: this year's prices and rates move with this year's demand
+form,"both years together: log_rate_factor, young",3.2518728153619785,0.0009417911521738945,same-year terms turn positive: this year's prices and rates move with this year's demand
+form,"both years together: delinquency, young",-0.052176910077485865,0.3352266547457572,same-year terms turn positive: this year's prices and rates move with this year's demand
+form,"both years together: log_price_income_l1, young",-8.654467570547432,6.106176780009785e-09,same-year terms turn positive: this year's prices and rates move with this year's demand
+form,"both years together: log_rate_factor_l1, young",-5.584668320804454,1.1801943416130015e-09,same-year terms turn positive: this year's prices and rates move with this year's demand
+form,"both years together: delinquency_l1, young",-0.33527825660537547,8.794150590536552e-08,same-year terms turn positive: this year's prices and rates move with this year's demand
+form,"alternative: single payment-to-income slope (last year), young",-0.23747792474557644,2.5470148993788162e-08,adj R2 0.773 vs 0.793 chosen
+form,"squared payment-to-income, young (is the squeeze worse at high burdens?)",-0.012439524957140078,0.2594392204597531,negative = yes; chosen model is linear
+form,young-specific time trend added: trend,-0.009584067950475622,0.5372919421577125,insignificant = the drivers are not just standing in for a slow drift (later marriage etc.)
+form,with trend: log_price_income_l1|young,-6.327386753439962,2.0106780455734688e-06,
+form,with trend: log_rate_factor_l1|young,-4.202537130713232,7.221388412213938e-12,
+form,with trend: delinquency_l1|young,-0.4449467191995698,8.308908512171357e-22,
+form,with trend: log_rate_factor_l1|mid,-2.5858803138498807,0.0032600092092606456,
+stability,Chow-type: driver slopes differ from 2008 on (year-clustered),37.75282466188293,3.37626742158385e-06,
+stability,log_price_income_l1|young on 1991-2007,-7.987173489459122,2.251094103926395e-06,n=176
+stability,log_rate_factor_l1|young on 1991-2007,-4.701126603254197,0.02969099836073646,n=176
+stability,delinquency_l1|young on 1991-2007,-0.4007802582047407,0.19139489873092996,n=176
+stability,log_rate_factor_l1|mid on 1991-2007,-1.844962258180631,0.38985862604715826,n=176
+stability,log_price_income_l1|young on 2008-2025,-2.598308445106288,0.11660110678011086,n=176
+stability,log_rate_factor_l1|young on 2008-2025,-4.682282106720635,1.1934163348359978e-10,n=176
+stability,delinquency_l1|young on 2008-2025,-0.28912675319014686,5.015401753235002e-05,n=176
+stability,log_rate_factor_l1|mid on 2008-2025,-3.27620980604815,2.562542986897574e-06,n=176
+stability,"log_price_income_l1|young, without 2007-2012 (crisis)",-6.239493811233189,1.2710879296356855e-09,n=286
+stability,"log_rate_factor_l1|young, without 2007-2012 (crisis)",-3.5389852948037888,1.3084195843980717e-07,n=286
+stability,"delinquency_l1|young, without 2007-2012 (crisis)",-0.423761821525104,1.4533662268789538e-11,n=286
+stability,"log_rate_factor_l1|mid, without 2007-2012 (crisis)",-2.1450500720306476,0.01525961818568242,n=286
+stability,"log_price_income_l1|young, without 2022-2025 (rate shock)",-8.456117638246276,3.5168561967640794e-12,n=308
+stability,"log_rate_factor_l1|young, without 2022-2025 (rate shock)",-4.394087918309079,1.2700320446229913e-08,n=308
+stability,"delinquency_l1|young, without 2022-2025 (rate shock)",-0.48455484000933097,5.270176516331737e-26,n=308
+stability,"log_rate_factor_l1|mid, without 2022-2025 (rate shock)",-3.141530911688574,0.0018911430549373811,n=308
+identification,"log_price_income_l1|young, with year fixed effects (relative to 55+)",-6.174718740701778,1.7531649304597582e-08,survives removing every shock common to all ages
+identification,"log_rate_factor_l1|young, with year fixed effects (relative to 55+)",-3.8939823852493713,2.1013938919998316e-06,survives removing every shock common to all ages
+identification,"delinquency_l1|young, with year fixed effects (relative to 55+)",-0.40170507569799874,5.085880101316683e-15,survives removing every shock common to all ages
+identification,"log_rate_factor_l1|mid, with year fixed effects (relative to 55+)",-2.4249758935971992,0.004539015179726535,survives removing every shock common to all ages

@@ -1,0 +1,334 @@
+MODEL  n=352  years (1992, 2025)  R2 0.803  adj R2 0.793  w75=0.102
+                             coef  se_cluster  p_cluster  se_driscoll_kraay  p_driscoll_kraay
+d:25-29                   -8.0885      2.3270     0.0005             2.0746            0.0001
+d:30-34                   -7.9692      2.3275     0.0006             2.0992            0.0001
+d:35-39                   -9.1032      2.3141     0.0001             2.0733            0.0000
+d:40-44                   -9.8387      2.3051     0.0000             2.0468            0.0000
+d:45-49                   -7.7773      3.4816     0.0255             3.1501            0.0136
+d:50-54                   -8.0064      3.5269     0.0232             3.1696            0.0115
+d:55-59                    0.5251      0.1298     0.0001             0.1533            0.0006
+d:60-64                    0.3671      0.1372     0.0075             0.1301            0.0048
+d:65-69                    0.3485      0.1245     0.0051             0.1374            0.0112
+d:70-74                    0.2907      0.1347     0.0309             0.1204            0.0158
+d:75+                     -0.1928      0.1026     0.0602             0.1023            0.0596
+log_price_income_l1|young -6.8757      0.9678     0.0000             0.7257            0.0000
+log_price_income_l1|mid   -3.2322      0.8985     0.0003             0.9544            0.0007
+log_rate_factor_l1|young  -4.0533      0.6095     0.0000             0.4910            0.0000
+log_rate_factor_l1|mid    -2.5843      0.8469     0.0023             0.7413            0.0005
+delinquency_l1|young      -0.4596      0.0397     0.0000             0.0246            0.0000
+delinquency_l1|mid        -0.2400      0.0431     0.0000             0.0337            0.0000
+delinquency_l1|old        -0.0386      0.0194     0.0467             0.0217            0.0752
+
+DIAGNOSTICS
+            section                                                                                           test  statistic  p_value                                                                                                                          reading
+0              fit                                                                    R2 (band effects + drivers)     0.8033      NaN                                                                                                      n=352 band-years, 1992-2025
+1              fit                                                                                    adjusted R2     0.7933      NaN                                                                                                                                 
+2              fit                                                                 adjusted R2, band effects only     0.6400      NaN                                                                                how much the normal ageing pattern alone explains
+3              fit                                                                      partial R2 of the drivers     0.4463      NaN                                                                 share of what ageing leaves unexplained that the drivers explain
+4              fit                                                     Wald: drivers add nothing (year-clustered)   152.7590   0.0000                                                                                                                                 
+5     stationarity                                     ADF, young-band flow (mean of 25-44 bands) (H0: unit root)    -2.1713   0.2168                                                                                                                                 
+6     stationarity                                   KPSS, young-band flow (mean of 25-44 bands) (H0: stationary)     0.3862   0.0831                                                                                       KPSS p is capped at 0.10 / floored at 0.01
+7     stationarity                                     ADF, house price / income (log), last year (H0: unit root)    -1.8905   0.3365                                                                                                                                 
+8     stationarity                                   KPSS, house price / income (log), last year (H0: stationary)     0.4959   0.0426                                                                                       KPSS p is capped at 0.10 / floored at 0.01
+9     stationarity                             ADF, mortgage-rate payment factor (log), last year (H0: unit root)    -1.7080   0.4270                                                                                                                                 
+10    stationarity                           KPSS, mortgage-rate payment factor (log), last year (H0: stationary)     0.7719   0.0100                                                                                       KPSS p is capped at 0.10 / floored at 0.01
+11    stationarity                                  ADF, mortgage delinquency rate (%), last year (H0: unit root)    -3.0168   0.0334                                                                                                                                 
+12    stationarity                                KPSS, mortgage delinquency rate (%), last year (H0: stationary)     0.1940   0.1000                                                                                       KPSS p is capped at 0.10 / floored at 0.01
+13       residuals                                                                 AR(1) of residuals within band     0.0565   0.3687                                        positive = some persistence the drivers miss; Driscoll-Kraay errors (2 lags) allow for it
+14       residuals                                                         Ljung-Box on year-mean residual, lag 1     0.3124   0.5762                                                                                                                                 
+15       residuals                                                         Ljung-Box on year-mean residual, lag 2     0.3155   0.8540                                                                                                                                 
+16       residuals                                                         Ljung-Box on year-mean residual, lag 3     1.0928   0.7788                                                                                                                                 
+17       residuals                                                  Breusch-Pagan heteroskedasticity (on drivers)    19.0934   0.0079                                                                               errors are year-clustered, which is robust to this
+18       residuals                                                                          Jarque-Bera normality     3.3927   0.1834                                                                                                         skew 0.17, kurtosis 3.34
+19       residuals                                                    Pesaran CD, cross-band residual correlation     6.8152   0.0000                                                    mean pairwise corr 0.16: bands share year shocks, hence year-clustered errors
+20    collinearity     corr(house price / income (log), last year, mortgage-rate payment factor (log), last year)    -0.2983      NaN                                                                                                                                 
+21    collinearity          corr(house price / income (log), last year, mortgage delinquency rate (%), last year)    -0.4554      NaN                                                                                                                                 
+22    collinearity  corr(mortgage-rate payment factor (log), last year, mortgage delinquency rate (%), last year)    -0.4787      NaN                                                                                                                                 
+23    collinearity                        VIF among the three drivers only, house price / income (log), last year     2.2384      NaN                                                                                                           below 5 is comfortable
+24    collinearity                VIF among the three drivers only, mortgage-rate payment factor (log), last year     2.3016      NaN                                                                                                           below 5 is comfortable
+25    collinearity                     VIF among the three drivers only, mortgage delinquency rate (%), last year     2.6455      NaN                                                                                                           below 5 is comfortable
+26    collinearity                                                  centred-driver refit: max change in any slope     0.0000      NaN                                                                        0 = slopes do not depend on where the drivers are centred
+27    collinearity                                      centred-driver refit: max change in any slope's std error     0.0000      NaN                                                                                                                                 
+28    collinearity                                                centred-driver refit: max change in fitted flow     0.0000      NaN                                                                                                                                 
+29    collinearity                                        design-matrix VIF, largest driver column: raw / centred  2244.7481   3.3719                                                                         second number in p_value column; centred is what matters
+30            form                             price and rate slopes for 55+ both zero (Wald, unrestricted model)     1.3723   0.5035                                           not rejected = 55+ restriction is fine; unrestricted 55+ rate slope -0.16, price -0.70
+31            form                                                  lock-in term (rate gap x owners), full sample     0.0961   0.2438  adj R2 0.795; on 1991-2019 alone -0.02 (p 0.93): before 2022 the gap never opened, so the effect cannot be learned from history
+32            form                                                           rate part = price part (young), Wald    18.4789   0.0000                                                      rejected = a single payment-to-income slope would mis-state the rate effect
+33            form                                                         alternative: same-year drivers: adj R2     0.7627      NaN                                                                                                    vs 0.793 chosen (last year's)
+34            form                                                              same-year log_price_income, young    -4.1359   0.0015                                                                                                                                 
+35            form                                                               same-year log_rate_factor, young    -1.7060   0.1082                                                                                                                                 
+36            form                                                                   same-year delinquency, young    -0.3468   0.0000                                                                                                                                 
+37            form                                                   both years together: log_price_income, young     2.2880   0.1616                                         same-year terms turn positive: this year's prices and rates move with this year's demand
+38            form                                                    both years together: log_rate_factor, young     3.2519   0.0009                                         same-year terms turn positive: this year's prices and rates move with this year's demand
+39            form                                                        both years together: delinquency, young    -0.0522   0.3352                                         same-year terms turn positive: this year's prices and rates move with this year's demand
+40            form                                                both years together: log_price_income_l1, young    -8.6545   0.0000                                         same-year terms turn positive: this year's prices and rates move with this year's demand
+41            form                                                 both years together: log_rate_factor_l1, young    -5.5847   0.0000                                         same-year terms turn positive: this year's prices and rates move with this year's demand
+42            form                                                     both years together: delinquency_l1, young    -0.3353   0.0000                                         same-year terms turn positive: this year's prices and rates move with this year's demand
+43            form                                 alternative: single payment-to-income slope (last year), young    -0.2375   0.0000                                                                                                     adj R2 0.773 vs 0.793 chosen
+44            form                       squared payment-to-income, young (is the squeeze worse at high burdens?)    -0.0124   0.2594                                                                                           negative = yes; chosen model is linear
+45            form                                                         young-specific time trend added: trend    -0.0096   0.5373                                      insignificant = the drivers are not just standing in for a slow drift (later marriage etc.)
+46            form                                                          with trend: log_price_income_l1|young    -6.3274   0.0000                                                                                                                                 
+47            form                                                           with trend: log_rate_factor_l1|young    -4.2025   0.0000                                                                                                                                 
+48            form                                                               with trend: delinquency_l1|young    -0.4449   0.0000                                                                                                                                 
+49            form                                                             with trend: log_rate_factor_l1|mid    -2.5859   0.0033                                                                                                                                 
+50       stability                                  Chow-type: driver slopes differ from 2008 on (year-clustered)    37.7528   0.0000                                                                                                                                 
+51       stability                                                         log_price_income_l1|young on 1991-2007    -7.9872   0.0000                                                                                                                            n=176
+52       stability                                                          log_rate_factor_l1|young on 1991-2007    -4.7011   0.0297                                                                                                                            n=176
+53       stability                                                              delinquency_l1|young on 1991-2007    -0.4008   0.1914                                                                                                                            n=176
+54       stability                                                            log_rate_factor_l1|mid on 1991-2007    -1.8450   0.3899                                                                                                                            n=176
+55       stability                                                         log_price_income_l1|young on 2008-2025    -2.5983   0.1166                                                                                                                            n=176
+56       stability                                                          log_rate_factor_l1|young on 2008-2025    -4.6823   0.0000                                                                                                                            n=176
+57       stability                                                              delinquency_l1|young on 2008-2025    -0.2891   0.0001                                                                                                                            n=176
+58       stability                                                            log_rate_factor_l1|mid on 2008-2025    -3.2762   0.0000                                                                                                                            n=176
+59       stability                                          log_price_income_l1|young, without 2007-2012 (crisis)    -6.2395   0.0000                                                                                                                            n=286
+60       stability                                           log_rate_factor_l1|young, without 2007-2012 (crisis)    -3.5390   0.0000                                                                                                                            n=286
+61       stability                                               delinquency_l1|young, without 2007-2012 (crisis)    -0.4238   0.0000                                                                                                                            n=286
+62       stability                                             log_rate_factor_l1|mid, without 2007-2012 (crisis)    -2.1451   0.0153                                                                                                                            n=286
+63       stability                                      log_price_income_l1|young, without 2022-2025 (rate shock)    -8.4561   0.0000                                                                                                                            n=308
+64       stability                                       log_rate_factor_l1|young, without 2022-2025 (rate shock)    -4.3941   0.0000                                                                                                                            n=308
+65       stability                                           delinquency_l1|young, without 2022-2025 (rate shock)    -0.4846   0.0000                                                                                                                            n=308
+66       stability                                         log_rate_factor_l1|mid, without 2022-2025 (rate shock)    -3.1415   0.0019                                                                                                                            n=308
+67  identification                           log_price_income_l1|young, with year fixed effects (relative to 55+)    -6.1747   0.0000                                                                                 survives removing every shock common to all ages
+68  identification                            log_rate_factor_l1|young, with year fixed effects (relative to 55+)    -3.8940   0.0000                                                                                 survives removing every shock common to all ages
+69  identification                                delinquency_l1|young, with year fixed effects (relative to 55+)    -0.4017   0.0000                                                                                 survives removing every shock common to all ages
+70  identification                              log_rate_factor_l1|mid, with year fixed effects (relative to 55+)    -2.4250   0.0045                                                                                 survives removing every shock common to all ages
+
+RECURSIVE (estimated on 1991..T)
+     through  log_price_income_l1|young  p log_price_income_l1|young  log_rate_factor_l1|young  p log_rate_factor_l1|young  delinquency_l1|young  p delinquency_l1|young  log_rate_factor_l1|mid  p log_rate_factor_l1|mid
+0      2003                     -3.109                        0.287                    -0.674                       0.747                -0.716                   0.016                   0.615                     0.752
+1      2004                     -2.121                        0.353                    -0.549                       0.792                -0.732                   0.016                   1.017                     0.631
+2      2005                     -5.462                        0.018                    -2.374                       0.279                -0.546                   0.063                  -1.559                     0.519
+3      2006                     -5.861                        0.000                    -2.663                       0.136                -0.527                   0.057                  -0.947                     0.659
+4      2007                     -7.987                        0.000                    -4.701                       0.030                -0.401                   0.191                  -1.845                     0.390
+5      2008                     -8.272                        0.000                    -4.427                       0.033                -0.517                   0.040                  -1.795                     0.370
+6      2009                     -8.100                        0.000                    -3.480                       0.012                -0.718                   0.000                  -0.979                     0.512
+7      2010                     -8.489                        0.000                    -4.549                       0.000                -0.519                   0.000                  -1.168                     0.416
+8      2011                     -8.358                        0.000                    -4.512                       0.000                -0.485                   0.000                  -1.132                     0.420
+9      2012                     -8.039                        0.000                    -4.143                       0.000                -0.490                   0.000                  -0.907                     0.497
+10     2013                     -8.658                        0.000                    -5.078                       0.000                -0.503                   0.000                  -1.428                     0.267
+11     2014                     -8.663                        0.000                    -5.107                       0.000                -0.503                   0.000                  -1.647                     0.189
+12     2015                     -8.495                        0.000                    -4.611                       0.000                -0.492                   0.000                  -1.742                     0.140
+13     2016                     -8.245                        0.000                    -4.162                       0.000                -0.474                   0.000                  -1.631                     0.079
+14     2017                     -8.277                        0.000                    -4.208                       0.000                -0.476                   0.000                  -2.234                     0.012
+15     2018                     -8.549                        0.000                    -4.645                       0.000                -0.497                   0.000                  -3.132                     0.004
+16     2019                     -8.456                        0.000                    -4.394                       0.000                -0.485                   0.000                  -3.142                     0.002
+17     2022                     -8.298                        0.000                    -4.674                       0.000                -0.495                   0.000                  -3.596                     0.000
+18     2023                     -6.622                        0.000                    -3.889                       0.000                -0.451                   0.000                  -3.037                     0.003
+19     2024                     -7.116                        0.000                    -4.205                       0.000                -0.467                   0.000                  -2.443                     0.008
+20     2025                     -6.876                        0.000                    -4.053                       0.000                -0.460                   0.000                  -2.584                     0.002
+
+SLOPES BY BAND
+      band  normal_gain_const  log_price_income_l1  p log_price_income_l1  log_rate_factor_l1  p log_rate_factor_l1  delinquency_l1  p delinquency_l1
+0   25-29              1.872               -8.309                  0.000              -2.460                 0.050          -0.493             0.000
+1   30-34            -11.895               -9.308                  0.000              -5.447                 0.000          -0.552             0.000
+2   35-39            -15.216               -5.813                  0.000              -5.025                 0.000          -0.487             0.000
+3   40-44             -9.761               -4.074                  0.009              -3.281                 0.000          -0.306             0.000
+4   45-49            -10.200               -3.916                  0.000              -3.247                 0.007          -0.283             0.000
+5   50-54             -5.583               -2.548                  0.159              -1.922                 0.121          -0.197             0.004
+6   55-59             -1.487               -0.271                  0.796              -0.510                 0.402          -0.111             0.019
+7   60-64              1.723               -0.260                  0.842               0.181                 0.860          -0.071             0.252
+8   65-69             -4.176               -1.538                  0.199              -1.279                 0.116          -0.095             0.070
+9   70-74              4.591                0.418                  0.734               1.011                 0.317           0.061             0.388
+10    75+              1.088               -1.854                  0.018              -0.201                 0.757          -0.074             0.182
+
+SPECIFICATION SEARCH (1991-2025, band effects in all)
+                                                                spec  adj_r2    n     pti_pct|young    pmms_30y|young real_hpi_g1|young unemployment|young delinquency|young log_price_income|young log_rate_factor|young  pti_pct_l1|young delinquency_l1|young log_price_income_l1|young log_rate_factor_l1|young
+0                                                       ageing only   0.640  363               NaN               NaN               NaN                NaN               NaN                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+1                                               + payment-to-income   0.658  363  +0.078 (p 0.116)               NaN               NaN                NaN               NaN                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+2                                                   + mortgage rate   0.684  363               NaN  +0.266 (p 0.002)               NaN                NaN               NaN                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+3                                         + real house-price growth   0.684  363               NaN               NaN  +0.111 (p 0.000)                NaN               NaN                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+4                                                    + unemployment   0.684  363               NaN               NaN               NaN   -0.252 (p 0.000)               NaN                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+5                               + PTI + house prices + unemployment   0.693  363  +0.025 (p 0.609)               NaN  +0.075 (p 0.023)   -0.108 (p 0.164)               NaN                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+6                                                     + delinquency   0.729  363               NaN               NaN               NaN                NaN  -0.206 (p 0.000)                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+7                                               + PTI + delinquency   0.751  363  -0.141 (p 0.016)               NaN               NaN                NaN  -0.339 (p 0.000)                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+8             + price/income + rate factor + delinquency, same year   0.763  363               NaN               NaN               NaN                NaN  -0.347 (p 0.000)       -4.136 (p 0.002)      -1.706 (p 0.108)               NaN                  NaN                       NaN                      NaN
+9                                    + PTI + delinquency, last year   0.773  352               NaN               NaN               NaN                NaN               NaN                    NaN                   NaN  -0.237 (p 0.000)     -0.407 (p 0.000)                       NaN                      NaN
+10  + price/income + rate factor + delinquency, last year  [CHOSEN]   0.793  352               NaN               NaN               NaN                NaN               NaN                    NaN                   NaN               NaN     -0.460 (p 0.000)          -6.876 (p 0.000)         -4.053 (p 0.000)
+11                                          + chosen + unemployment   0.793  352               NaN               NaN               NaN   -0.056 (p 0.559)               NaN                    NaN                   NaN               NaN     -0.427 (p 0.000)          -6.832 (p 0.000)         -3.713 (p 0.000)
+12                                    + chosen + house-price growth   0.794  352               NaN               NaN  +0.032 (p 0.183)                NaN               NaN                    NaN                   NaN               NaN     -0.413 (p 0.000)          -6.432 (p 0.000)         -3.367 (p 0.000)
+13                                    + mortgage rate + delinquency   0.730  363               NaN  +0.064 (p 0.372)               NaN                NaN  -0.185 (p 0.000)                    NaN                   NaN               NaN                  NaN                       NaN                      NaN
+
+BACKTEST origins 2005-2019: RMSE of the national ownership rate, pp
+ method   ageing only (no drivers)  model, actual conditions  model, conditions frozen at origin  rates by age frozen (JCHS base-style)
+horizon                                                                                                                               
+1                            0.67                      0.37                                0.37                                   0.62
+2                            1.33                      0.74                                0.66                                   1.18
+3                            1.93                      0.98                                0.99                                   1.69
+4                            2.50                      1.26                                1.46                                   2.15
+5                            3.06                      1.50                                1.91                                   2.57
+6                            3.57                      1.63                                2.43                                   2.93
+ bias, pp
+ method   ageing only (no drivers)  model, actual conditions  model, conditions frozen at origin  rates by age frozen (JCHS base-style)
+horizon                                                                                                                               
+1                            0.47                      0.05                                0.05                                   0.44
+2                            0.88                      0.12                                0.09                                   0.82
+3                            1.25                      0.19                                0.08                                   1.16
+4                            1.56                      0.15                                0.02                                   1.43
+5                            1.80                     -0.02                               -0.03                                   1.64
+6                            1.98                     -0.22                               -0.09                                   1.80
+ RMSE, owner households (k)
+ method   ageing only (no drivers)  model, actual conditions  model, conditions frozen at origin  rates by age frozen (JCHS base-style)
+horizon                                                                                                                               
+1                           770.0                     428.0                               428.0                                  708.0
+2                          1526.0                     851.0                               751.0                                 1365.0
+3                          2221.0                    1125.0                              1133.0                                 1952.0
+4                          2899.0                    1453.0                              1693.0                                 2501.0
+5                          3565.0                    1748.0                              2249.0                                 3009.0
+6                          4176.0                    1935.0                              2908.0                                 3442.0
+
+BACKTEST origins 2010-2019: RMSE of the national ownership rate, pp
+ method   ageing only (no drivers)  model, actual conditions  model, conditions frozen at origin  rates by age frozen (JCHS base-style)
+horizon                                                                                                                               
+1                            0.61                      0.30                                0.30                                   0.63
+2                            1.13                      0.42                                0.41                                   1.14
+3                            1.49                      0.47                                0.64                                   1.50
+4                            1.83                      0.49                                0.97                                   1.81
+5                            2.11                      0.59                                1.39                                   2.02
+6                            2.19                      0.82                                1.95                                   2.02
+ bias, pp
+ method   ageing only (no drivers)  model, actual conditions  model, conditions frozen at origin  rates by age frozen (JCHS base-style)
+horizon                                                                                                                               
+1                            0.30                     -0.02                               -0.02                                   0.37
+2                            0.47                      0.02                               -0.10                                   0.59
+3                            0.54                      0.05                               -0.30                                   0.71
+4                            0.54                     -0.01                               -0.55                                   0.76
+5                            0.43                     -0.19                               -0.80                                   0.70
+6                            0.20                     -0.48                               -1.10                                   0.53
+ RMSE, owner households (k)
+ method   ageing only (no drivers)  model, actual conditions  model, conditions frozen at origin  rates by age frozen (JCHS base-style)
+horizon                                                                                                                               
+1                           712.0                     353.0                               353.0                                  728.0
+2                          1327.0                     505.0                               485.0                                 1337.0
+3                          1767.0                     571.0                               762.0                                 1767.0
+4                          2191.0                     591.0                              1175.0                                 2153.0
+5                          2545.0                     742.0                              1708.0                                 2425.0
+6                          2677.0                    1053.0                              2436.0                                 2446.0
+
+EPISODE: origin 2021 -> 2022-2025 (national rate, %)
+       ageing only (no drivers)  model, actual conditions  model, conditions frozen at origin  rates by age frozen (JCHS base-style)  actual_rate
+year                                                                                                                                            
+2022                     65.41                     65.41                               65.41                                  65.46        65.77
+2023                     65.37                     64.85                               65.39                                  65.48        65.89
+2024                     65.45                     64.28                               65.47                                  65.61        65.63
+2025                     65.50                     63.72                               65.53                                  65.70        65.25
+
+ASSUMPTIONS {'delinq_now': 1.828, 'delinq_norm_1991_2006': 2.18, 'young_gap_2024_25': -0.068, 'price_to_income_2025': 3.941, 'nar_minus_pmms_spread': 0.071} PMMS 2026 YTD (6.4086842105263155, 38)
+
+OWNER-OCCUPIED HOMES (m)
+ year                                                 2025   2026   2027   2028   2029   2030   2031   2035
+scenario                                                                                                  
+Fed dots path                                       86.66  86.97  87.31  87.65  87.99  88.33  88.65  89.53
+Market path                                         86.66  86.97  87.31  87.64  87.97  88.31  88.62  89.44
+Market path, 2024-25 young shortfall persists       86.66  86.94  87.25  87.55  87.85  88.15  88.43  89.13
+Market path, delinquency back to 1991-2006 norm     86.66  86.97  87.27  87.55  87.78  88.01  88.22  88.63
+Market path, households not calibrated to JCHS      86.66  87.02  87.41  87.79  88.17  88.55  88.91  89.92
+Market path, main-immigration households            86.66  87.06  87.49  87.92  88.35  88.77  89.18  90.40
+Market path, model estimated on 2008-2025 only      86.66  86.94  87.19  87.35  87.50  87.65  87.77  87.84
+Market path, price/income flat at 2025 (no relief)  86.66  86.97  87.23  87.36  87.48  87.59  87.69  87.65
+Market path, zero-immigration households            86.66  86.77  86.90  87.03  87.16  87.28  87.38  87.35
+PMMS 6.0%                                           86.66  86.97  87.36  87.92  88.46  89.01  89.53  91.22
+PMMS 6.5%                                           86.66  86.97  87.33  87.76  88.18  88.60  89.00  90.16
+PMMS 7.0%                                           86.66  86.97  87.30  87.61  87.90  88.20  88.47  89.14
+PMMS 7.5%                                           86.66  86.97  87.27  87.46  87.64  87.81  87.97  88.15
+PMMS 8.0%                                           86.66  86.97  87.23  87.31  87.38  87.44  87.47  87.18
+PMMS 8.0%, price/income flat at 2025 (no relief)    86.66  86.97  87.15  87.02  86.88  86.73  86.55  85.40
+rates by age frozen at 2025 (JCHS base-style)       86.66  87.38  88.04  88.66  89.26  89.86  90.44  92.32
+year                                                   2025     2031     2035  k_per_yr_25_31  k_per_yr_25_35
+scenario                                                                                                     
+Fed dots path                                       86660.0  88654.0  89528.0           332.0           287.0
+Market path                                         86660.0  88616.0  89437.0           326.0           278.0
+Market path, 2024-25 young shortfall persists       86660.0  88432.0  89128.0           295.0           247.0
+Market path, delinquency back to 1991-2006 norm     86660.0  88216.0  88631.0           259.0           197.0
+Market path, households not calibrated to JCHS      86660.0  88912.0  89922.0           375.0           326.0
+Market path, main-immigration households            86660.0  89181.0  90397.0           420.0           374.0
+Market path, model estimated on 2008-2025 only      86660.0  87773.0  87844.0           185.0           118.0
+Market path, price/income flat at 2025 (no relief)  86660.0  87690.0  87649.0           172.0            99.0
+Market path, zero-immigration households            86660.0  87383.0  87346.0           120.0            69.0
+PMMS 6.0%                                           86660.0  89533.0  91216.0           479.0           456.0
+PMMS 6.5%                                           86660.0  88995.0  90163.0           389.0           350.0
+PMMS 7.0%                                           86660.0  88473.0  89141.0           302.0           248.0
+PMMS 7.5%                                           86660.0  87965.0  88148.0           218.0           149.0
+PMMS 8.0%                                           86660.0  87472.0  87185.0           135.0            52.0
+PMMS 8.0%, price/income flat at 2025 (no relief)    86660.0  86547.0  85397.0           -19.0          -126.0
+rates by age frozen at 2025 (JCHS base-style)       86660.0  90441.0  92318.0           630.0           566.0
+
+NATIONAL OWNERSHIP RATE (%)
+ year                                                 2025   2026   2028   2031   2035
+scenario                                                                             
+Fed dots path                                       65.25  65.03  64.78  64.48  64.08
+Market path                                         65.25  65.03  64.78  64.46  64.01
+Market path, 2024-25 young shortfall persists       65.25  65.01  64.71  64.32  63.79
+Market path, delinquency back to 1991-2006 norm     65.25  65.03  64.70  64.17  63.44
+Market path, households not calibrated to JCHS      65.25  65.02  64.74  64.39  63.90
+Market path, main-immigration households            65.25  65.02  64.74  64.40  63.93
+Market path, model estimated on 2008-2025 only      65.25  65.00  64.56  63.84  62.87
+Market path, price/income flat at 2025 (no relief)  65.25  65.03  64.56  63.78  62.73
+Market path, zero-immigration households            65.25  65.05  64.85  64.59  64.21
+PMMS 6.0%                                           65.25  65.03  64.98  65.12  65.29
+PMMS 6.5%                                           65.25  65.03  64.86  64.73  64.53
+PMMS 7.0%                                           65.25  65.03  64.75  64.35  63.80
+PMMS 7.5%                                           65.25  65.03  64.64  63.98  63.09
+PMMS 8.0%                                           65.25  65.03  64.53  63.63  62.40
+PMMS 8.0%, price/income flat at 2025 (no relief)    65.25  65.03  64.32  62.95  61.12
+rates by age frozen at 2025 (JCHS base-style)       65.25  65.33  65.52  65.78  66.07
+
+DRIVER PATH, base
+ year               2026    2027    2028    2029    2030    2031    2032    2033    2034    2035
+pmms              6.535   6.875   6.864   6.854   6.849   6.846   6.845   6.845   6.845   6.845
+price_to_income   3.857   3.728   3.728   3.728   3.728   3.728   3.728   3.728   3.728   3.728
+pti_pct          23.666  23.681  23.655  23.633  23.619  23.612  23.610  23.610  23.611  23.611
+delinquency       1.828   1.828   1.828   1.828   1.828   1.828   1.828   1.828   1.828   1.828
+
+BY GROUP, base: rate %
+ year   2025  2026  2031  2035
+group                        
+25-34  40.6  40.4  41.5  42.2
+35-44  60.8  59.8  56.9  56.0
+45-54  69.8  69.4  67.1  65.0
+55-64  75.9  75.7  74.5  73.1
+65-74  79.5  79.4  78.8  78.2
+75+    77.4  77.5  77.5  77.3
+<25    24.2  24.2  24.2  24.2
+BY GROUP, base: owners k
+ year      2025     2026     2031     2035
+group                                    
+25-34   8444.0   8393.0   8539.0   8567.0
+35-44  14236.0  14089.0  13552.0  13342.0
+45-54  15033.0  14897.0  15097.0  15147.0
+55-64  17276.0  17111.0  15708.0  15221.0
+65-74  17399.0  17661.0  18022.0  17307.0
+75+    12862.0  13430.0  16353.0  18572.0
+<25     1410.0   1390.0   1343.0   1280.0
+
+STEADY STATE vs 2025 (base conditions held for good)
+          <25  25-29  30-34  35-39  40-44  45-49  50-54  55-59  60-64  65-69  70-74   75+
+2025    24.2   33.3   46.6   57.4   64.4   68.5   71.2   75.1   76.6   78.5   80.6  77.4
+steady  24.2   36.1   48.5   55.3   58.4   61.0   62.4   64.6   66.1   67.5   68.6  66.0
+
+FAN, base scenario (m): 10th / 50th / 90th percentile
+         0.1    0.5    0.9
+2026  86.42  87.02  87.45
+2028  86.73  87.69  88.57
+2031  87.22  88.69  90.12
+2035  87.39  89.48  91.61
+
+2026 FIRST LOOK, rates by age
+    group  model_2026_minus_2025_pp  census_H1_2026_minus_H1_2025_pp  census_H1_2025  census_H1_2026
+0    <35                     -0.13                            -0.50           36.50           36.00
+1  35-44                     -1.06                             0.35           60.65           61.00
+2  45-54                     -0.43                            -0.45           69.90           69.45
+3  55-64                     -0.17                            -0.15           75.50           75.35
+4    65+                     -0.07                            -0.30           78.80           78.50
+2026 FIRST LOOK, owner-occupied homes (Census HVS): H1-2026 minus H1-2025 = +1064k (H1-2025 was a weak half); H1-2026 minus 2025 average = +412k; model 2026 minus 2025 (annual) = +311k
+
+HOUSEHOLDS (calibrated, low immigration): 690k a year 2025-35 (JCHS low 690k); by year: 2026: +923, 2027: +814, 2028: +751, 2029: +744, 2030: +726, 2031: +704, 2032: +648, 2033: +598, 2034: +521, 2035: +471
+household change 2025-35 by group (k):
+         mid     low  ours_mid  ours_low
+25-34     1  -460.0     486.0     -10.0
+35-44   911   399.0    1153.0     603.0
+45-54  2069  1783.0    2295.0    1988.0
+55-64 -1789 -1957.0   -1465.0   -1645.0
+65-74   376   252.0     617.0     484.0
+75+    7493  7420.0    7000.0    6921.0
+<25    -469  -537.0    -366.0    -439.0
+JCHS owner growth 2025-35, low immigration: 586k (rates rise) / 466k (flat by age+race) / 249k (fall)

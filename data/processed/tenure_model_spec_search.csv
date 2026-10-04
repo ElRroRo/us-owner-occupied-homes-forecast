@@ -1,0 +1,15 @@
+spec,adj_r2,n,pti_pct|young,pmms_30y|young,real_hpi_g1|young,unemployment|young,delinquency|young,log_price_income|young,log_rate_factor|young,pti_pct_l1|young,delinquency_l1|young,log_price_income_l1|young,log_rate_factor_l1|young
+ageing only,0.64,363,,,,,,,,,,,
++ payment-to-income,0.658,363,+0.078 (p 0.116),,,,,,,,,,
++ mortgage rate,0.684,363,,+0.266 (p 0.002),,,,,,,,,
++ real house-price growth,0.684,363,,,+0.111 (p 0.000),,,,,,,,
++ unemployment,0.684,363,,,,-0.252 (p 0.000),,,,,,,
++ PTI + house prices + unemployment,0.693,363,+0.025 (p 0.609),,+0.075 (p 0.023),-0.108 (p 0.164),,,,,,,
++ delinquency,0.729,363,,,,,-0.206 (p 0.000),,,,,,
++ PTI + delinquency,0.751,363,-0.141 (p 0.016),,,,-0.339 (p 0.000),,,,,,
+"+ price/income + rate factor + delinquency, same year",0.763,363,,,,,-0.347 (p 0.000),-4.136 (p 0.002),-1.706 (p 0.108),,,,
+"+ PTI + delinquency, last year",0.773,352,,,,,,,,-0.237 (p 0.000),-0.407 (p 0.000),,
+"+ price/income + rate factor + delinquency, last year  [CHOSEN]",0.793,352,,,,,,,,,-0.460 (p 0.000),-6.876 (p 0.000),-4.053 (p 0.000)
++ chosen + unemployment,0.793,352,,,,-0.056 (p 0.559),,,,,-0.427 (p 0.000),-6.832 (p 0.000),-3.713 (p 0.000)
++ chosen + house-price growth,0.794,352,,,+0.032 (p 0.183),,,,,,-0.413 (p 0.000),-6.432 (p 0.000),-3.367 (p 0.000)
++ mortgage rate + delinquency,0.73,363,,+0.064 (p 0.372),,,-0.185 (p 0.000),,,,,,
